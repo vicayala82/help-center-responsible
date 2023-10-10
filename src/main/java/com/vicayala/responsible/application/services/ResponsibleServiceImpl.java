@@ -1,6 +1,6 @@
 package com.vicayala.responsible.application.services;
 
-import com.vicayala.responsible.application.repositories.ResponsibleCrud;
+import com.vicayala.responsible.application.repositories.ResponsibleItemRepository;
 import com.vicayala.responsible.application.repositories.ResponsibleRepository;
 import com.vicayala.responsible.application.services.interfaces.IResponsibleServices;
 import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleEntity;
@@ -15,7 +15,7 @@ import java.util.Optional;
 public class ResponsibleServiceImpl implements IResponsibleServices {
 
     private final ResponsibleRepository responsibleRepository;
-    private final ResponsibleCrud responsibleCrud;
+    private final ResponsibleItemRepository responsibleItemRepository;
 
     public Optional<ResponsibleEntity>  save(ResponsibleEntity responsible){
         return Optional.of(responsibleRepository.save(responsible));
@@ -23,6 +23,6 @@ public class ResponsibleServiceImpl implements IResponsibleServices {
 
     @Override
     public Optional<ResponsibleItemEntity> getById(String id) {
-        return responsibleCrud.findById(id);
+        return responsibleItemRepository.findById(id);
     }
 }
