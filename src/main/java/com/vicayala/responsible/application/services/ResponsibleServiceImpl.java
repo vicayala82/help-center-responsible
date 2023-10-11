@@ -3,8 +3,8 @@ package com.vicayala.responsible.application.services;
 import com.vicayala.responsible.application.repositories.ResponsibleItemRepository;
 import com.vicayala.responsible.application.repositories.ResponsibleRepository;
 import com.vicayala.responsible.application.services.interfaces.IResponsibleServices;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleEntity;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleItemEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleItemEntity;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

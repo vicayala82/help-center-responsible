@@ -3,19 +3,16 @@ package com.vicayala.responsible.domain.dtos.responsible;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.BranchResponsibleEntity;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ContractEmployeeResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ContractEmployeeResponsibleEntity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
 import org.springframework.beans.BeanUtils;
 
 import java.math.BigDecimal;
-import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
-import java.util.regex.Pattern;
 
 @Data
 @NoArgsConstructor

@@ -1,6 +1,6 @@
 package com.vicayala.responsible.domain.dtos.responsible;
 
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.CompanyEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.CompanyEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -2,7 +2,7 @@ package com.vicayala.responsible.domain.dtos.responsible;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.InHouseEmployeeResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.InHouseEmployeeResponsibleEntity;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;

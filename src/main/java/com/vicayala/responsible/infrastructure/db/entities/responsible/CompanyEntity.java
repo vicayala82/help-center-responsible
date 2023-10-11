@@ -1,4 +1,4 @@
-package com.vicayala.responsible.infrastructure.bd.entities.responsible;
+package com.vicayala.responsible.infrastructure.db.entities.responsible;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBDocument;

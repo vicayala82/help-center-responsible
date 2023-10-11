@@ -1,4 +1,4 @@
-package com.vicayala.responsible.infrastructure.bd.configuration;
+package com.vicayala.responsible.infrastructure.db.configuration;
 
 
 import com.amazonaws.auth.AWSCredentials;
@@ -11,7 +11,7 @@ import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapperConfig;
 import com.vicayala.responsible.application.repositories.ResponsibleRepository;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRepositories;
 import org.springframework.beans.factory.annotation.Value;

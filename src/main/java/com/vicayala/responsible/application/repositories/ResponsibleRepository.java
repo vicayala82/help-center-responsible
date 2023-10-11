@@ -1,6 +1,6 @@
 package com.vicayala.responsible.application.repositories;
 
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleEntity;
 import org.socialsignin.spring.data.dynamodb.repository.EnableScan;
 import org.springframework.data.repository.CrudRepository;
 

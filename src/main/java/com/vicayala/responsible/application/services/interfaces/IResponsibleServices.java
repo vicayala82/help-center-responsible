@@ -1,7 +1,7 @@
 package com.vicayala.responsible.application.services.interfaces;
 
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleEntity;
-import com.vicayala.responsible.infrastructure.bd.entities.responsible.ResponsibleItemEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleEntity;
+import com.vicayala.responsible.infrastructure.db.entities.responsible.ResponsibleItemEntity;
 
 import java.util.Optional;
 

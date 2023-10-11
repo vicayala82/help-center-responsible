@@ -1,8 +1,7 @@
-package com.vicayala.responsible.infrastructure.bd.entities.responsible;
+package com.vicayala.responsible.infrastructure.db.entities.responsible;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTypeConverted;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.vicayala.responsible.domain.dtos.responsible.ContractEmployeeResponsibleDTO;
 import lombok.AllArgsConstructor;
