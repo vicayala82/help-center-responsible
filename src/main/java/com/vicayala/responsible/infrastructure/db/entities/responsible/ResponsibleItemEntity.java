@@ -82,8 +82,9 @@ public class ResponsibleItemEntity {
         ContractEmployeeResponsibleDTO contractEmployeeResponsibleDTO = new ContractEmployeeResponsibleDTO();
         BeanUtils.copyProperties(responsibleItemEntity, contractEmployeeResponsibleDTO);
         contractEmployeeResponsibleDTO.setCompany(convertToCompanyDto(responsibleItemEntity.getCompany()));
-        contractEmployeeResponsibleDTO.setEndedDateService(responsibleItemEntity
-                .getEndedDateService().toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
+        contractEmployeeResponsibleDTO.setEndedDateService(Objects.nonNull(responsibleItemEntity
+                .getEndedDateService()) ? responsibleItemEntity
+                .getEndedDateService().toInstant().atZone(ZoneId.systemDefault()).toLocalDate() : null);
         return contractEmployeeResponsibleDTO;
     }
 
